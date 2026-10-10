@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "revision": "example-v1",
+  "goal": "Print hello",
+  "scope": "hello.py",
+  "exclusions": "No deployment",
+  "constraints": "Python standard library only",
+  "validation": "Inspect hello output",
+  "unknowns": "None",
+  "authority": {
+    "build": true
+  },
+  "blockers": [],
+  "spec": {
+    "revision": "example-v1",
+    "items": [
+      {
+        "id": "R1",
+        "statement": "Print hello",
+        "acceptance": "Output is hello"
+      }
+    ]
+  },
+  "plan": {
+    "revision": "example-v1",
+    "items": [
+      {
+        "id": "R1",
+        "task_ids": [
+          "T1"
+        ],
+        "implementation": [
+          "hello.py"
+        ]
+      }
+    ]
+  },
+  "tasks": {
+    "revision": "example-v1",
+    "items": [
+      {
+        "id": "T1",
+        "requirement_id": "R1",
+        "description": "Implement greeting",
+        "implementation": [
+          "hello.py"
+        ],
+        "status": "complete"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "requirement_id": "R1",
+      "revision": "example-v1",
+      "result": "PASS",
+      "path": "evidence/acceptance.txt",
+      "sha256": "308f603cef7e5da95bacc9b734dd5687ab1a99a17f7bd2b173f2b604d2ea5bdd",
+      "implementation_sha256": {
+        "hello.py": "b80792336156c7b0f7fe02eeef24610d2d52a10d1810397744471d1dc5738180"
+      }
+    }
+  ]
+}

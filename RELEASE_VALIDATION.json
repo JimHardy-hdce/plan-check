@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-09",
+  "record_scope": "Sanitized replacement history; Windows Python 3.12.10 in a fresh pip-free venv. Results recorded after verification.",
+  "verification": {
+    "tests_passed": 29,
+    "pointer": "PASS",
+    "prebuild": "PASS",
+    "final": "PASS"
+  },
+  "sanitization": {
+    "original_provenance_retained_privately": true,
+    "earlier_history_excluded": true,
+    "scan_scope": "Tracked tree, reachable blobs and commit metadata; heuristic known-identifier, credential and private-path patterns."
+  },
+  "content_sha256": {},
+  "destination": {
+    "repository": "JimHardy-hdce/plan-check",
+    "visibility": "private",
+    "history_replacement_authorized": true,
+    "public_release_authorized": false
+  },
+  "other_repositories_modified": false
+}

@@ -1,0 +1,1 @@
+Example acceptance report: hello.py prints hello. Demonstration fixture, not release test evidence.

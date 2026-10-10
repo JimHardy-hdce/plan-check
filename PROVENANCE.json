@@ -1,0 +1,6 @@
+{
+  "source_origin": "Owner-maintained private source",
+  "private_provenance": "Complete original repository identity, commit and original file hashes are retained privately outside this release repository.",
+  "release_repository": "JimHardy-hdce/plan-check",
+  "canonical_migration": "This repository contains the canonical standalone release master. Adoption for consumers is staged for the first approved push; original repositories are unchanged. Never resolve two masters for one build."
+}
