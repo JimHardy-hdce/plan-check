@@ -1,0 +1,6 @@
+- master_repo: JimHardy-hdce/plan-check
+- master_path: docs/plan-check/PLAN_CHECK.md
+- master_ref: main
+- master_version: 1.0.0
+- pinned_commit: 5b1198fd94603a1db6ebe99c8718863e997d5021
+- sha256: 6521de18be62bc1d7055f26f0b516a7dde08052dca0185430596de7f6280e252
