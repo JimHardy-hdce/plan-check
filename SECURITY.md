@@ -13,6 +13,5 @@ invalidate a check; use an immutable checkout when recording release evidence.
 Evidence PASS is self-reported. The tool binds evidence to the declared implementation file hashes but does not prove
 tests ran or discover undeclared dependencies. Use trusted reports tied to the tested revision and rerun after changes.
 Avoid secrets, client names, credentials, customer documents and personal paths in records.
-PROVENANCE.json retains the source repository name, original commit and hashes;
-office usernames and absolute source paths have been removed from release files and history. Report security concerns privately to the owner; no public
+PROVENANCE.json gives only a high-level private-source note; the original repository identity, commit and file hashes remain outside this release repository and are omitted from this release tree. Office usernames and absolute source paths have been removed from release files and history. Report security concerns privately to the owner; no public
 contact address or vulnerability intake has been configured.
